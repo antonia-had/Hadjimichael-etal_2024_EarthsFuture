@@ -1,0 +1,90 @@
+[W 2023-07-07 12:59:30.241 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-07 12:59:30.241 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-07 12:59:30.241 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-07 12:59:30.241 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-07 12:59:30.244 LabApp] JupyterLab extension loaded from /home/fs02/pmr82_0001/ah986/rival_framings/lib64/python3.6/site-packages/jupyterlab
+[I 2023-07-07 12:59:30.245 LabApp] JupyterLab application directory is /home/fs02/pmr82_0001/ah986/rival_framings/share/jupyter/lab
+[I 12:59:30.249 NotebookApp] Serving notebooks from local directory: /home/fs02/pmr82_0001/ah986/Hadjimichael-etal_2023_EarthsFuture
+[I 12:59:30.249 NotebookApp] Jupyter Notebook 6.4.5 is running at:
+[I 12:59:30.249 NotebookApp] http://localhost:18065/?token=e144a2a7b23bd662ae4fe35f76b60aeb68fc2a8256d82dab
+[I 12:59:30.249 NotebookApp]  or http://127.0.0.1:18065/?token=e144a2a7b23bd662ae4fe35f76b60aeb68fc2a8256d82dab
+[I 12:59:30.249 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:59:30.255 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/fs02/pmr82_0001/ah986/.local/share/jupyter/runtime/nbserver-1533582-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:18065/?token=e144a2a7b23bd662ae4fe35f76b60aeb68fc2a8256d82dab
+     or http://127.0.0.1:18065/?token=e144a2a7b23bd662ae4fe35f76b60aeb68fc2a8256d82dab
+[I 13:50:09.051 NotebookApp] 302 GET /?token=e144a2a7b23bd662ae4fe35f76b60aeb68fc2a8256d82dab (::1) 0.380000ms
+[W 13:50:24.298 NotebookApp] delete /jupyter-44690.log
+[W 13:50:24.363 NotebookApp] delete /jupyter-44690.err
+[W 13:50:35.877 NotebookApp] Notebook workflow/streamflow_distribution_changes.ipynb is not trusted
+[I 13:50:36.642 NotebookApp] Kernel started: 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26, name: python3
+Exception in callback <TaskStepMethWrapper object at 0x1484222a6e48>()
+handle: <Handle <TaskStepMethWrapper object at 0x1484222a6e48>()>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+KeyError: <_UnixSelectorEventLoop running=True closed=False debug=False>
+[W 13:50:36.730 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20230707125929 (::1) 10.190000ms referer=http://localhost:8888/notebooks/workflow/streamflow_distribution_changes.ipynb
+[W 13:52:28.273 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20230707125929 (::1) 1.680000ms referer=http://localhost:8888/notebooks/workflow/classify_naturalized_streamflows-drought.ipynb
+[I 13:52:29.206 NotebookApp] Kernel started: b6d57cb2-ec05-4c0f-bc35-03d92f235c02, name: python3
+[I 13:52:37.248 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 13:54:36.881 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 13:56:36.725 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 13:58:36.918 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 14:04:36.919 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 14:05:14.006 NotebookApp] Starting buffering for b6d57cb2-ec05-4c0f-bc35-03d92f235c02:e98dc9dea59b4694afcd03f16cb2ebfb
+[I 14:06:36.655 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 14:08:36.642 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 14:12:37.577 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:08:46.240 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:14:37.679 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:25:09.089 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:25:48.746 NotebookApp] Starting buffering for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:25:49.297 NotebookApp] Kernel restarted: 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26
+[I 15:25:49.440 NotebookApp] Restoring connection for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:25:49.944 NotebookApp] Replaying 3 buffered messages
+[I 15:26:41.166 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:26:41.305 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:26:41.521 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:26:46.396 NotebookApp] Starting buffering for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:26:46.844 NotebookApp] Kernel restarted: 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26
+[I 15:26:46.933 NotebookApp] Restoring connection for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:26:47.344 NotebookApp] Replaying 3 buffered messages
+[I 15:28:41.109 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:30:06.759 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:30:14.127 NotebookApp] Starting buffering for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:30:14.576 NotebookApp] Kernel restarted: 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26
+[I 15:30:14.776 NotebookApp] Restoring connection for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:30:15.280 NotebookApp] Replaying 3 buffered messages
+[I 15:30:36.677 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:30:49.647 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:31:39.840 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:31:48.748 NotebookApp] Starting buffering for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:31:49.164 NotebookApp] Kernel restarted: 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26
+[I 15:31:49.255 NotebookApp] Restoring connection for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:31:49.758 NotebookApp] Replaying 3 buffered messages
+[I 15:32:37.187 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:32:55.752 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:33:11.874 NotebookApp] Starting buffering for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:33:12.324 NotebookApp] Kernel restarted: 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26
+[I 15:33:12.444 NotebookApp] Restoring connection for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:33:12.796 NotebookApp] Replaying 3 buffered messages
+[I 15:34:37.134 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:37:19.093 NotebookApp] Saving file at /workflow/fitHMM.py
+[I 15:37:24.599 NotebookApp] Starting buffering for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:37:25.048 NotebookApp] Kernel restarted: 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26
+[I 15:37:25.144 NotebookApp] Restoring connection for 3f2ed9f5-ccba-4771-bcfd-208a1fa12e26:ef9667db70fb439c8367a5728fac9210
+[I 15:37:25.648 NotebookApp] Replaying 3 buffered messages
+[I 15:38:37.123 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:40:09.138 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:40:36.586 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:42:37.136 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:44:36.594 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:46:37.131 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:48:36.602 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:50:36.598 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:52:36.595 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
+[I 15:54:36.645 NotebookApp] Saving file at /workflow/streamflow_distribution_changes.ipynb
