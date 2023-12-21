@@ -1,6 +1,5 @@
 from hmmlearn.hmm import GaussianHMM
 from matplotlib import pyplot as plt
-import seaborn as sns
 import pandas as pd
 import numpy as np
 from scipy import stats as ss
@@ -28,7 +27,6 @@ def fitHMM(TransformedQ):
 
 def plotTimeSeries(TransformedQ, hidden_states, ylabel, filename):
     
-    sns.set()
     fig = plt.figure()
     ax = fig.add_subplot(111)
     
@@ -67,7 +65,6 @@ def plotDistribution(TransformedQ, mus, sigmas, P, filename):
     fx = pi[0]*ss.norm.pdf(x,mus[0],sigmas[0]) + \
         pi[1]*ss.norm.pdf(x,mus[1],sigmas[1])
             
-    sns.set()
     fig = plt.figure()
     ax = fig.add_subplot(111)
     ax.hist(TransformedQ, color='k', alpha=0.5, density=True)
@@ -87,7 +84,6 @@ def plotDistribution(TransformedQ, mus, sigmas, P, filename):
 
 def plotLogTimeSeries(TransformedQ, hidden_states, ylabel, filename):
     
-    sns.set()
     fig = plt.figure()
     ax = fig.add_subplot(111)
     
@@ -131,7 +127,6 @@ def plotLogDistribution(TransformedQ, mus, sigmas, P, filename):
     logbins = np.logspace(np.log10(bins[0]), np.log10(bins[-1]),len(bins))
     weights = np.ones_like(TransformedQ)/float(len(TransformedQ))
             
-    sns.set()
     fig = plt.figure()
     ax = fig.add_subplot(111)
     l1, = ax.plot(np.exp(x_0), fx_0, c='r', linewidth=2, label='Dry State Distn')
@@ -162,7 +157,6 @@ def makePPandQQplot(TransformedQ, mus, sigmas, P, title, figname):
     Fx_fitted = pi[0]*ss.norm.cdf(x_sorted,mus[0],sigmas[0]) + \
         pi[1]*ss.norm.cdf(x_sorted,mus[1],sigmas[1])
         
-    sns.set()
     plt.scatter(Fx_empirical,Fx_fitted,color='b')
     plt.plot([0,1],[0,1],color='r')
     plt.xlabel('Empirical CDF')
@@ -176,7 +170,6 @@ def makePPandQQplot(TransformedQ, mus, sigmas, P, title, figname):
     for i in range(len(x_fitted)):
         x_fitted[i] = x_dist[(np.abs(qx_dist-Fx_empirical[i])).argmin()]
         
-    sns.set()
     plt.scatter(x_sorted,x_fitted,color='b')
     plt.plot([np.min(x_sorted),np.max(x_sorted)],[np.min(x_sorted),np.max(x_sorted)],color='r')
     plt.xlabel('Observations')
@@ -197,9 +190,7 @@ def findQuantiles(mus, sigmas, piNew):
     return x, qx
 
 def assessFit(logQ, hidden_states, mus, sigmas, P, year, dataset):
-    
-    sns.set()
-    
+
     masks0 = hidden_states == 0
     masks1 = hidden_states == 1
     

@@ -25,23 +25,27 @@ Hadjimichael, A., Reed, P.M., Quinn, J.D, Vernon, C.R., Thurber, T., Multi-actor
 ### Input data
 Hadjimichael, A., Reed, P. M., Quinn, J. D., Vernon, C. R., & Thurber, T. (2023). Data for Hadjimichael et al. - Multi-actor, multi-impact scenario discovery (Version v1) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/2205512
 
+To download this data, follow the instructions provided on the MSD-LIVE page. 
+
 ## Contributing modeling software
 | Model | Version | Repository Link | DOI |
 |-------|---------|-----------------|-----|
 | StateMod | 15.0 | https://github.com/OpenCDSS/cdss-app-statemod-fortran | - |
 
 ## Reproduce my experiment
-Fill in detailed info here or link to other documentation that is a thorough walkthrough of how to use what is in this repository to reproduce your experiment.
 
+1. Install all package dependencies listed in environment.yml using `conda env create --file environment.yml`
+2. Activate environment using `conda activate Hadjimichael-etal_2024_EarthsFuture`
+3. Create directory `/xdd_parquet_flow` under `/data`
+4. Download and install the supporting input data required to perform the analysis from [Input data](#input-data) and save under `../data/xdd_parquet_flow`
+4. Go through the following notebooks in the `workflow` directory to re-create these results:
 
-1. Install the software components required to conduct the experiement from [Contributing modeling software](#contributing-modeling-software)
-2. Download and install the supporting input data required to conduct the experiement from [Input data](#input-data)
-3. Run the following scripts in the `workflow` directory to re-create this experiment:
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `step_one.py` | Script to run the first part of my experiment | `python3 step_one.py -f /path/to/inputdata/file_one.csv` |
-| `step_two.py` | Script to run the last part of my experiment | `python3 step_two.py -o /path/to/my/outputdir` |
+| Script Name                                  | Description                                                                                 | How to Run                                  |
+|----------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------|
+| `classify_naturalized_streamflows-drought.ipynb` | Script to perform drought classification for historic and synthetic streamflows (Fig. 3)    | Execute notebook |
+| `streamflow_distribution_changes.ipynb`      | Script for drought classification across rolling windows (Figs. 4, S1-3)                    | Execute notebook |
+| `hive_plots_drought_impacts-history.ipynb`     | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8-9) | Execute notebook |
+| `hive_plots_drought_impacts-history.ipynb`     | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8-9) | Execute notebook |
 
 4. Download and unzip the output data from my experiment [Output data](#output-data)
 5. Run the following scripts in the `workflow` directory to compare my outputs to those from the publication
