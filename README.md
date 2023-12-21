@@ -38,7 +38,7 @@ To download this data, follow the instructions provided on the MSD-LIVE page.
 2. Activate environment using `conda activate Hadjimichael-etal_2024_EarthsFuture`
 3. Create directory `/xdd_parquet_flow` under `/data`
 4. Download and install the supporting input data required to perform the analysis from [Input data](#input-data) and save under `../data/xdd_parquet_flow`
-4. Go through the following notebooks in the `workflow` directory to re-create these results:
+5. Go through the following notebooks in the `workflow` directory to re-create these results:
 
 | Script Name                                       | Description                                                                                 | How to Run                                  |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------|
@@ -47,4 +47,6 @@ To download this data, follow the instructions provided on the MSD-LIVE page.
 | `hive_plots_drought_impacts-history.ipynb`        | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8-9) | Execute notebook |
 | `hive_plots_drought_impacts-non_stationary.ipynb` | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8, 10, 11, and 14) | Execute notebook |
 
+6. To recreate Fig. 12, analysis is performed in `historic_analysis.xlsx`
+7. To recreate Fig. 13, analysis is performed in `diversions_admin.xlsx`
 
