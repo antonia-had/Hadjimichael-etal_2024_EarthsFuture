@@ -1,6 +1,6 @@
 _your zenodo badge here_
 
-# Hadjimichae-etal_2024_EarthsFuture
+# Hadjimichael-etal_2024_EarthsFuture
 
 **Multi-actor, multi-impact scenario discovery of consequential narrative storylines for human-natural systems planning**
 
