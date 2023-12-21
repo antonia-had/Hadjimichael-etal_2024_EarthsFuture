@@ -34,7 +34,7 @@ To download this data, follow the instructions provided on the MSD-LIVE page.
 
 ## Reproduce my experiment
 
-1. Install all package dependencies listed in environment.yml using `conda env create --file environment.yml`
+1. Create new virtual environment and install all package dependencies using `conda env create --file Hadjimichael-etal_2024_EarthsFuture.yml`
 2. Activate environment using `conda activate Hadjimichael-etal_2024_EarthsFuture`
 3. Create directory `/xdd_parquet_flow` under `/data`
 4. Download and install the supporting input data required to perform the analysis from [Input data](#input-data) and save under `../data/xdd_parquet_flow`
