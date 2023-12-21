@@ -40,23 +40,11 @@ To download this data, follow the instructions provided on the MSD-LIVE page.
 4. Download and install the supporting input data required to perform the analysis from [Input data](#input-data) and save under `../data/xdd_parquet_flow`
 4. Go through the following notebooks in the `workflow` directory to re-create these results:
 
-| Script Name                                  | Description                                                                                 | How to Run                                  |
-|----------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------|
-| `classify_naturalized_streamflows-drought.ipynb` | Script to perform drought classification for historic and synthetic streamflows (Fig. 3)    | Execute notebook |
-| `streamflow_distribution_changes.ipynb`      | Script for drought classification across rolling windows (Figs. 4, S1-3)                    | Execute notebook |
-| `hive_plots_drought_impacts-history.ipynb`     | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8-9) | Execute notebook |
-| `hive_plots_drought_impacts-history.ipynb`     | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8-9) | Execute notebook |
+| Script Name                                       | Description                                                                                 | How to Run                                  |
+|---------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------|
+| `classify_naturalized_streamflows-drought.ipynb`  | Script to perform drought classification for historic and synthetic streamflows (Fig. 3)    | Execute notebook |
+| `streamflow_distribution_changes.ipynb`           | Script for drought classification across rolling windows (Figs. 4, S1-3)                    | Execute notebook |
+| `hive_plots_drought_impacts-history.ipynb`        | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8-9) | Execute notebook |
+| `hive_plots_drought_impacts-non_stationary.ipynb` | Script to generate hive plot and storyline for historically-informed conditions (Figs. 8, 10, 11, and 14) | Execute notebook |
 
-4. Download and unzip the output data from my experiment [Output data](#output-data)
-5. Run the following scripts in the `workflow` directory to compare my outputs to those from the publication
 
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `compare.py` | Script to compare my outputs to the original | `python3 compare.py --orig /path/to/original/data.csv --new /path/to/new/data.csv` |
-
-## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `generate_figures.py` | Script to generate my figures | `python3 generate_figures.py -i /path/to/inputs -o /path/to/outuptdir` |
