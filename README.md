@@ -1,5 +1,3 @@
-_your zenodo badge here_
-
 # Hadjimichael-etal_2024_EarthsFuture
 
 **Scenario storyline discovery for planning in multi-actor human-natural systems confronting change**
